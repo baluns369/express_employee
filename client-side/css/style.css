@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.nav{
+    
+    /* width: 100%; */
+    height: 55px;
+    background-color: deepskyblue;
+    color: black;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+h2{
+    font-family: "Protest Guerrilla", sans-serif;
+    font-size: 50px;
+}
+.search{
+    margin-right: 400px;
+}
+#search{
+    border: 0.5px;
+    border-radius: 15px;
+    width: 300px;
+    height: 40px;
+    background-color: rgb(132, 216, 247);
+    padding-left: 10px;
+}  
+button{
+    border: 1px;
+    border-radius: 15px;
+    /* width: px; */
+    height: 40px;
+    background-color: rgb(52, 121, 146);
+    padding: 10px;
+    color: white;
+    font-size: 16px;
+}
+.add{
+    background-color: mediumseagreen;
+}
+.main{
+    margin-top: 27px;
+    padding: 0px 100px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    gap: 30px;
+    justify-content: center;
+}
+.card{
+    box-shadow: rgba(66, 65, 65, 0.35) 0px 5px 15px;
+    border-radius: 15px;
+    padding: 10px;
+    width: 250px;
+    height: 350px;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    font-size: 25px;
+}
+.photo{
+    border: 2px ;
+    border-radius: 15px;
+    padding: 13px;
+    
+}
+.pic{
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 8px;
+}
+img{
+    border-radius: 10px;
+}
