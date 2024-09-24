@@ -1,0 +1,90 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');*{
+    padding: 0;
+    margin:0 ;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+  .head{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  h2{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 50px;
+    /* font-style: initial; */
+  }
+  
+  .container {
+    background-color: #99f8ff;
+    width: 600px; /* Adjust width as needed */
+    margin: 0 auto; /* Center the form horizontally */
+    border:   #ddd;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Form Styles */
+  form {
+    width: 100%;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  th {
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"] {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  input[type="file"] {
+    /* display: none; */
+  }
+  
+  .photo {
+    /* border: 1px dashed #ccc; */
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  /* Labels */
+  h6 {
+    margin: 0;
+    font-size: 14px;
+  }
+  
+  /* Button (optional) */
+  .submit {
+    display: block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .submit:hover {
+    background-color: #3e8e41;
+  }

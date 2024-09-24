@@ -60,6 +60,7 @@ button{
     justify-content: center;
     text-align: center;
     font-size: 25px;
+    background-color: aliceblue;
 }
 .photo{
     border: 2px ;
